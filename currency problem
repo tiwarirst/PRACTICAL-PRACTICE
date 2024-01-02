@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int n;
+  printf("enter the amount in hundreds :");
+  scanf("%d",&n);
+  int x=n/100,y=n/50,z=n/10;
+  printf("amount in hundreds notes :%d\n",x);
+  printf(" amount in fifty notes :%d\n",y);
+  printf(" amount in ten notes :%d\n",z);
+    return 0;
+}
