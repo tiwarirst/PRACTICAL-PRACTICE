@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+   float x=(80000*52)/100,y=(35*x)/100,z=(48*80000)/100,k=z-y,l=x-y,m=80000-x,n=m-k;
+   int s=80000;
+   printf("totol population:%d\n",s);
+   printf("totol men population:%f\n",x);
+   printf("totol men literate population:%f\n",y);
+   printf("totol (men+women) literate population:%f\n",z);
+   printf("totol women literate population:%f\n",k);
+   printf("totol men illiterate population:%f\n",l);
+   printf("totol women population:%f\n",m);
+   printf("totol women illiterate population:%f\n",n);
+    return 0;
+}
