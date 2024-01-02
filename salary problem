@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int n;
+  printf("enter the basic salary:");
+  scanf("%d",&n);
+  float x=(float)n*70/100,y=(float)7*n/100,z=(float)2*n/100,k=(float)4*n/100,l=(float)12*n/100;
+  float m=(float)n+x+y+z-k;
+  float f=(float)n+x+y+z;
+  printf("basic salary :%d\n",n);
+  printf(" da of basic salary :%f\n",x);
+  printf(" hra of basic salary :%f\n",y);
+   printf(" ma of basic salary :%f\n",z);
+    printf("  ta basic salary :%f\n",k);
+     printf(" pf of basic salary :%f\n",l);
+      printf(" gross salary :%f\n",f);
+       printf(" net salary :%f\n",m);
+    return 0;
+}
