@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+    printf("#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====\n");
+    printf("                             BIO-DATA\n");
+    printf("#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====\n");
+    printf("                            Basic Information\n");
+    printf("                            ------------------\n");
+    printf("                        Name          : rishu\n");
+     printf("                        Address       : baswahi\n");
+      printf("                        Mobile number : 9876857432\n");
+       printf("                        Date of Birth : 28/09/2024\n");
+       printf("                                                                              \n");
+       printf("                            Education Qualification\n");
+       printf("                            ------------------------\n");
+       printf("                        *HSC     ->school name   ->passing year\n");
+       printf("                        percentage \n");
+       printf("                        *SSC      ->school    ->passing year\n");
+        printf("                        percentage \n");
+         printf("                                                                              \n");
+          printf("                            other information\n");
+          printf("                            -------------------\n");
+           printf("                        Technical skill          : c,c++\n");
+            printf("                        Hobbies          : abc,xyz\n");
+            printf("#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====\n");
+            printf("                             THANK YOU\n");
+            printf("#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====#=====\n");
+    return 0;
+}
