@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+   char a[200];
+   printf("Enter the string : ");
+   scanf("%[^\n]%*c",a);
+   int l= strlen(a);
+   char t;
+   printf("Enter the character to remove :");
+   scanf("%c",&t);
+  // remov(a,l,t);
+  int i=0,j=0;
+    for(;i<l;i++)
+    { if(a[i]==t)
+    {
+       continue;
+    }
+    else 
+    printf("%c",a[i]);
+    }
+    return 0;
+}
